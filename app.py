@@ -247,7 +247,7 @@ def solve_standard_mult(n1, n2):
 # ==========================================
 # MAIN APP
 # ==========================================
-st.title("🕉️ Ancient Indian Algorithms: The Foundation of Modern Computing")
+st.markdown('<h1 style="color:black;">🕉️ Ancient Indian Algorithms: The Foundation of Modern Computing</h1>', unsafe_allow_html=True)
 st.markdown("### *Bridging 2000+ Years of Mathematical Innovation*")
 
 # Sidebar with overview
