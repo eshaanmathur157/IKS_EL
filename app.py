@@ -71,6 +71,15 @@ st.markdown("""
     h2, h3 {
         color: #2c3e50 !important;
     }
+    /* FORCE tab text to black */
+.stTabs [data-baseweb="tab"] {
+    color: black !important;
+}
+
+/* Active tab text */
+.stTabs [data-baseweb="tab"][aria-selected="true"] {
+    color: black !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
